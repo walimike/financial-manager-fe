@@ -81,7 +81,7 @@ export default function Navbar({user}) {
 
   return(
     <>
-    <AppBar position="fixed" className={classes.appBar}>
+    <AppBar position="relative" className={classes.appBar}>
       <Toolbar>
         <Typography variant="h6" noWrap className={classes.title}>
           {session?.user && `${session.user?.name}'s company`} 
